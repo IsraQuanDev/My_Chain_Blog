@@ -26,8 +26,8 @@ jobs:
       run: |
         echo ":: Renombrando nueva version ::"
         mv public/ docs/
-        git config --global user.email "launchx@innovaccion.mx"
-        git config --global user.name "Launch X Backend Node JS"
+        git config --global user.email "israelmesillas703@gmail.com"
+        git config --global user.name "IsraQuanDev"
         git add .
         git commit -m "GitHub Actions: Build ok"
     - name: Push changes
